@@ -27,6 +27,12 @@ Requirements for [PyTorch](https://pytorch.org/)
 
 The single AlexNet model converges at 60-th epoch and achieving a top-1 error rate of 41.20% and a top-5 error rate of 18.2% on the validation set.
 
+![Training loss](https://github.com/longrootchen/alexnet-imagenet-pytorch/blob/master/images/training_loss.png)
+
+![Top-1 error](https://github.com/longrootchen/alexnet-imagenet-pytorch/blob/master/images/top1_error.png)
+
+![Top-5 error](https://github.com/longrootchen/alexnet-imagenet-pytorch/blob/master/images/top5_error.png)
+
 # References
 
 [1] Alex Krizhevsky, Ilya Sutskever & Geoffrey E. Hinton. ImageNet Classification with Deep Convolutional Neural Networks. In NIPS, 2012.
