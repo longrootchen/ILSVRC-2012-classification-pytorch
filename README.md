@@ -11,7 +11,7 @@ Requirements for [PyTorch](https://pytorch.org/)
 
 ## Hardware
 
-I used a single 2080Ti (12G momery) GPU.
+A single 2080Ti (12G momery) GPU was used.
 
 # Usage
 
