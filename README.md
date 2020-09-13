@@ -27,7 +27,7 @@ Requirements for [PyTorch](https://pytorch.org/)
 
 The single AlexNet model converges at 60-th epoch and achieving a top-1 error rate of 41.20% and a top-5 error rate of 18.2% on the validation set.
 
-Here are visualization for training loss and error rates (dark blue for train, light blue for val; red for train, pink for val).
+Here are visualizations for training loss and error rates (dark blue for train, light blue for val; red for train, pink for val).
 
 ![Training loss](https://github.com/longrootchen/alexnet-imagenet-pytorch/blob/master/images/training_loss.png)
 
