@@ -4,6 +4,8 @@ Here is a re-implementation of AlexNet model on ILSVRC 2012 with PyTorch.
 
 I got the top-1 and top-5 error rates comparable to the original paper.
 
+Contact email: imdchan@yahoo.com
+
 # Requirements
 
 Requirements for [PyTorch](https://pytorch.org/)
