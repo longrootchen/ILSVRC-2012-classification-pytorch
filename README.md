@@ -4,7 +4,7 @@ Here is a re-implementation of AlexNet model on ILSVRC 2012 with PyTorch.
 
 The single AlexNet model converges at 60-th epoch and achieving a top-1 error rate of 41.20% and a top-5 error rate of 18.2% on the validation set.
 
-使用 PyTorh 复现 AlexNet 在 ILSVRC 2012 数据集的结果。
+使用 PyTorch 复现 AlexNet 在 ILSVRC 2012 数据集的结果。
 
 单 AlexNet 模型在 60 epoch 时收敛，获得 41.20% Top-1 错误率和 18.2% Top-5 错误率。
 
