@@ -20,7 +20,7 @@ Evaluation metrics are the top-1 and top-5 error rates.
 
 1. Clone this repository
 
-        git clone https://github.com/longrootchen/alexnet-imagenet-pytorch.git
+        git clone https://github.com/longrootchen/ILSVRC-2012-classification-pytorch.git
 
 2. Train a model, taking alexnet as an example
 
