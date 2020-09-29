@@ -1,4 +1,4 @@
-# Re-implementation of ConvNets on ILSVRC 2012 with PyTorch
+# Re-implementation of ConvNets on ILSVRC 2012 classification task with PyTorch
 
 Contact email: imdchan@yahoo.com
 
