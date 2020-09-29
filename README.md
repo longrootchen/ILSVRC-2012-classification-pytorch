@@ -24,7 +24,7 @@ Evaluation metrics are the top-1 and top-5 error rates.
 
 2. Train a model, taking alexnet as an example
 
-        python -u train.py --work-dir ./experiments/alexnet
+        python -u train.py --work-dir ./experiments/alexnet --resume ./experiments/alexnet/checkpoints/last_checkpoint.pth
 
 3. Evaluate a model on the validation set, taking alexnet as an example
 
