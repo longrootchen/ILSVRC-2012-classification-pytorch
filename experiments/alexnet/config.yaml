@@ -1,0 +1,29 @@
+# model architecture
+arch: alexnet
+num_classes: 1000
+
+# hardware
+workers: 4
+gpu: 'cuda:0'
+
+# miscellaneous
+train_root: './datasets/train'
+valid_root: './datasets/val'
+save_dir: './checkpoints'
+log_dir: './logs'
+verbose: True
+
+# training
+epochs: 90
+resume: './checkpoints/last_checkpoint.pth'
+batch_size: 128
+scale_size: 256  # image size after scaling
+crop_size: 227  # image size for model input
+
+# SGD optimizer. Note: nesterov default to False
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0005
+
+# ReduceLROnPlateau scheduler
+factor: 0.1
