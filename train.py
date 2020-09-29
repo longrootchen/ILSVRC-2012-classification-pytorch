@@ -235,10 +235,12 @@ class Trainer:
 
 
 if __name__ == '__main__':
-    # for training alexnet:
+    # for training alexnet from a checkpoint:
     # $ python -u train.py --work-dir ./experiments/alexnet
+    #   --resume ./experiments/alexnet/checkpoints/last_checkpoint.pth
     parser = ArgumentParser(description='Train ConvNets on ILSVRC 2012 in PyTorch')
     parser.add_argument('--work-dir', required=True, type=str)
+    parser.add_argument('--resume', type=str, default=None)
     args = parser.parse_args()
 
     # get experiment settings
@@ -249,7 +251,7 @@ if __name__ == '__main__':
     # set paths
     cfgs.save_dir = os.path.join(args.work_dir, cfgs.save_dir)
     cfgs.log_dir = os.path.join(args.work_dir, cfgs.log_dir)
-    cfgs.resume = os.path.join(args.work_dir, cfgs.resume)
+    cfgs.resume = args.resume
 
     # get model
     model = get_model(cfgs)
